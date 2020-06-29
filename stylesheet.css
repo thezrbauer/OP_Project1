@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Nav Bar  Incomplete*/
+
+ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+    display: inline;
+    padding:25px;
+    position:center;
+}
+
+
+/* Body might delete all of this*/
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+img {
+    margin-top:50px;
+    margin-left: 75px;
+    margin-bottom: 25px;
+    display:flex;
+    position:center;
+}
+
+input {
+    width:425px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+#button_div {
+    position:center;
+margin-left: 75px;
+}
+
+.button {}
